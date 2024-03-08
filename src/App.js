@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { Routes, Route, useLocation } from 'react-router-dom'
+import Home from './containers/home'
+import About from './containers/about'
+import Resume from './containers/resume'
+import Projects from './containers/projects'
+import Navbar from './components/navBar';
+import ParticleBackground from './utils.js/background';
 
 function App() {
+  const location = useLocation();
+  const renderParticles = location.pathname === "/";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* particles */} 
+    {renderParticles && (
+        <ParticleBackground/>
+    )}
+    
+    {/* navbar */}
+    <Navbar/>
+
+    {/* main page */}
+    <div className="App_main-page-content">
+      <Routes>
+        <Route index path='/' element={<Home/>}/>
+        <Route index path='/about' element={<About/>}/>
+        <Route index path='/projects' element={<Projects/>}/>
+        <Route index path='/resume' element={<Resume/>}/>
+      </Routes>
+    </div>
     </div>
   );
 }
