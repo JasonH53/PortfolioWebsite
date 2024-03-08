@@ -36,7 +36,7 @@ const Navbar =()=>{
         <div>
             <nav className="navbar">
                 <div className="navbar_container">
-                    <Link to={'/'} className="navbar_container_logo">
+                    <Link to={'https://github.com/JasonH53/PortfolioWebsite'} className="navbar_container_logo">
                     <HiCodeBracket size={30}/>
                     </Link>
                     <Link to={'https://github.com/JasonH53'} className="navbar_container_social">
