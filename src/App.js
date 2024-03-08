@@ -1,5 +1,5 @@
 import './App.scss';
-import { Routes, Route, useLocation, HashRouter } from 'react-router-dom'
+import { Routes, Route, useLocation} from 'react-router-dom'
 import Home from './containers/home'
 import About from './containers/about'
 import Resume from './containers/resume'
@@ -12,7 +12,6 @@ function App() {
   const renderParticles = location.pathname === "/";
 
   return (
-    <HashRouter>
     <div className="App">
 
     {renderParticles && (
@@ -30,8 +29,6 @@ function App() {
       </Routes>
     </div>
     </div>
-        
-  </HashRouter>
   );
 }
 
