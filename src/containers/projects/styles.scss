@@ -7,21 +7,21 @@
             display: inline-block;
             margin: 0 auto;
             border-radius: 25px;
-            border: 1px solid var(--yellow-theme-main-color);
+            border: 1px solid var(--purple-theme-main-color);
 
             li {
                 font-size: 16px;
                 display: inline-block;
                 cursor: pointer;
                 position: relative;
-                color: var(--yellow-theme-main-color);
+                color: var(--purple-theme-main-color);
                 padding: 10px 20px;
                 text-transform: uppercase;
                 transition: all 0.5 ease;
                 overflow: hidden;
 
                 &.active {
-                    background: var(--yellow-theme-main-color);
+                    background: var(--purple-theme-main-color);
                     color: white;
                     font-weight: 600;
                     border-radius: 25px;
@@ -42,7 +42,7 @@
                 position: relative;
 
                 &:hover .overlay {
-                    opacity: 1;
+                    opacity: 0.8;
                 }
 
                 a {
@@ -52,6 +52,7 @@
                         height: 100%;
                         width: 100%;
                         object-fit: cover;
+                        opacity: 80%;
                     }
                 }
             }
@@ -65,7 +66,7 @@
                 height: 100%;
                 opacity: 0;
                 transition: 0.5s ease;
-                background-color: var(--yellow-theme-main-color);
+                background-color: black;
 
                 div {
                     position: absolute;
@@ -93,17 +94,17 @@
 }
 
 .title {
-    color: white;
+    color: var(--purple-theme-main-color);
     margin: 0px;
+    line-height: 4rem;
     font-size: 4rem;
     position: relative;
     overflow: hidden;
-    white-space: nowrap;
 
 }
 
 .desc{
-    color: white;
+    color: var(--purple-theme-main-color);
     margin: 0px;
     font-size: 1rem;
     position: relative;

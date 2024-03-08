@@ -1,5 +1,5 @@
 .navbar{
-    background-color: var(--yellow-theme-nav-background-color);
+    background-color: black;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -16,8 +16,14 @@
         padding: 0px 20px;
 
         &_logo{
-            color: var(--yellow-theme-main-color);
+            color: var(--purple-theme-main-color);
             cursor: pointer;
+        }
+
+        &_social{
+            color: var(--purple-theme-main-color);
+            cursor: pointer;
+            padding-left: 4rem;
         }
 
         &_menu{
@@ -41,11 +47,11 @@
 
                 &:hover::after{
                     width: 100%;
-                    background: var(--yellow-theme-main-color);
+                    background: var(--purple-theme-main-color);
                 }
 
                 &_links{
-                    color: var(--yellow-theme-main-color);
+                    color: var(--purple-theme-main-color);
                     text-decoration: none;
                     padding: 0.5rem;
                 }
@@ -75,6 +81,7 @@
             background: #181818;
             right: 0px;
             opacity: 1;
+            position: absolute;
         }
 
         &_item{
@@ -87,7 +94,7 @@
     .nav-icon{
         display: block;
         cursor: pointer;
-        color: var(--yellow-theme-main-color);
+        color: var(--purple-theme-main-color);
         padding-right: 20px;
     }
 

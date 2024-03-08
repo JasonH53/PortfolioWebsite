@@ -1,7 +1,7 @@
 export default {
     background: {
       color: {
-        value: "##1d1d1d",
+        value: "#1f1f1f",
       },
     },
     fpsLimit: 120,
@@ -29,10 +29,10 @@ export default {
     },
     particles: {
       color: {
-        value: "#ffffff",
+        value: "#B191FF",
       },
       links: {
-        color: "#ffffff",
+        color: "#D664BE",
         distance: 150,
         enable: true,
         opacity: 0.5,

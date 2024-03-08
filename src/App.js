@@ -13,15 +13,13 @@ function App() {
 
   return (
     <div className="App">
-    {/* particles */} 
+
     {renderParticles && (
         <ParticleBackground/>
     )}
-    
-    {/* navbar */}
+
     <Navbar/>
 
-    {/* main page */}
     <div className="App_main-page-content">
       <Routes>
         <Route index path='/' element={<Home/>}/>

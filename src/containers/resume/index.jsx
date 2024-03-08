@@ -1,9 +1,11 @@
 import React from 'react';
+import resumePdf from '../../resources/Resume.pdf'
+import './styles.scss'
 
 const Resume=()=>{
     return(
         <div>
-            resume page
+            <embed src={resumePdf} className="resumePdf" type="application/pdf"/>
         </div>
     )
 }

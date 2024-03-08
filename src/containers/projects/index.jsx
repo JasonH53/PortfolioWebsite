@@ -1,9 +1,10 @@
 import React from 'react';
-import BoulderPhoto from '../../resources/BoulderSolver.png'
+import BoulderPhoto from '../../resources/BoulderSolver.jpg'
 import AssignPlanner from '../../resources/UWAssignmentPlanner.png'
 import PersonalWebsite from '../../resources/PersonalWebsite.png'
 import YouTubeChan from '../../resources/YouTubeChannel.png'
 import SLMod from '../../resources/SLMod.png'
+import SunshinePhoto from '../../resources/sunshineAction.jpg'
 import './styles.scss'
 import { useState } from 'react';
 
@@ -42,7 +43,7 @@ const portfolioData = [
         name: "Personal Website",
         image: PersonalWebsite,
         link: "/",
-        desc: "Assignment Planner designed for UWaterloo students, built with MEAN stack."
+        desc: "The website you are visiting right now! It is built with React"
     },
     {
         id: 3,
@@ -57,6 +58,13 @@ const portfolioData = [
         image: SLMod,
         link: "https://github.com/JasonH53/SLMod",
         desc: "QOL game modification for Minecraft, built with Java"
+    },
+    {
+        id: 3,
+        name: "Prev HR Manager @ Sunshine Action",
+        image: SunshinePhoto,
+        link: "https://www.sunshine-action.org/",
+        desc: "Organized weekly meetings and consistently contributed ~3 hours weekly on preparation and distribution of care packages for individuals facing hardship"
     }
 ]
 
