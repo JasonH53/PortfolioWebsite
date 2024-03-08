@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import {FaBars, FaHome} from 'react-icons/fa';
+import {FaBars} from 'react-icons/fa';
+import {HiCodeBracket} from 'react-icons/hi2'
 import {Link} from 'react-router-dom';
-import {HiX} from 'react-icons/hi';
+import {HiCode, HiX} from 'react-icons/hi';
 import {AiFillYoutube, AiOutlineGithub, AiOutlineLinkedin} from 'react-icons/ai'
 import './styles.scss';
 
@@ -36,7 +37,7 @@ const Navbar =()=>{
             <nav className="navbar">
                 <div className="navbar_container">
                     <Link to={'/'} className="navbar_container_logo">
-                    <FaHome size={30}/>
+                    <HiCodeBracket size={30}/>
                     </Link>
                     <Link to={'https://github.com/JasonH53'} className="navbar_container_social">
                     <AiOutlineGithub size={30}/>
