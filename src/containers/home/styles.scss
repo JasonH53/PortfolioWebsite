@@ -12,7 +12,7 @@
         text-align: center;
         h1{
             display: block;
-            color: var(--yellow-theme-main-color);
+            color: var(--purple-theme-main-color);
             margin: 0 auto 0 auto;
             font-weight: 500;
             font-size: 8rem;
@@ -24,7 +24,7 @@
         h2{
             margin-top: 2rem;
             display: block;
-            color: var(--yellow-theme-main-color);
+            color: var(--purple-theme-main-color);
             margin: 0;
             font-weight: 500;
             font-size: 6rem;
@@ -46,12 +46,12 @@
             padding: 10px 70px;
             font-size: 2rem;
             background: transparent;
-            color: var(--yellow-theme-main-color);
-            border: 1.5px solid var(--yellow-theme-main-color);
+            color: var(--purple-theme-main-color);
+            border: 1.5px solid var(--purple-theme-main-color);
             font-weight: 500;
 
             &:hover{
-                background: var(--yellow-theme-main-color);
+                background: var(--purple-theme-main-color);
                 color: black;
             }
         }

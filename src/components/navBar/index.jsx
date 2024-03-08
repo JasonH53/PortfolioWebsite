@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import {FaBars, FaReact} from 'react-icons/fa';
+import {FaBars, FaHome} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 import {HiX} from 'react-icons/hi';
+import {AiFillYoutube, AiOutlineGithub, AiOutlineLinkedin} from 'react-icons/ai'
 import './styles.scss';
 
 const data = [
@@ -35,7 +36,16 @@ const Navbar =()=>{
             <nav className="navbar">
                 <div className="navbar_container">
                     <Link to={'/'} className="navbar_container_logo">
-                    <FaReact size={30}/>
+                    <FaHome size={30}/>
+                    </Link>
+                    <Link to={'https://github.com/JasonH53'} className="navbar_container_social">
+                    <AiOutlineGithub size={30}/>
+                    </Link>
+                    <Link to={'https://www.linkedin.com/in/jasonhonhk/'} className="navbar_container_social">
+                    <AiOutlineLinkedin size={30}/>
+                    </Link>
+                    <Link to={'https://youtube.com/c/JasonStrafes'} className="navbar_container_social">
+                    <AiFillYoutube size={30}/>
                     </Link>
                 </div>
                 <ul className={`navbar_container_menu ${toggleIcon ? 'active' : ''}`}>

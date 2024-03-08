@@ -21,7 +21,7 @@ const Home=()=>{
                             strings={[
                                 "I am a Computer Science Student",
                                 "I am a Software Engineer",
-                                "I am a YouTuber",
+                                "I am a Content Creator",
                             ]}
                             typeSpeed={35}
                             backSpeed={35}
@@ -30,7 +30,7 @@ const Home=()=>{
                         />
                     </h2>
             </div>
-            <Animate play duration={1.5} delay={0.5}
+            <Animate play duration={1} delay={1}
             start={{
                 transform : 'translateY(550px)',
             }}
