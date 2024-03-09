@@ -4,8 +4,8 @@ import PageHeaderContent from '../../components/pageHeaderContent'
 import './styles.scss'
 import myPhoto from '../../resources/personal_photo.png'
 
-const self_desc = "I'm a Computer Science student at the University of Waterloo. I am very passionate about software development and machine learning. My hobbies include exercising, coding, cooking and video games."
-const more_desc = "I started coding when I was Grade 8, starting with Swift and Python but things really clicked when I first dove into Java and developing Minecraft mods. I also previously ran a YouTube channel with 20k+ subscribers but it was put aside due to my other commitments"
+const self_desc = "I'm a Computer Science student at the University of Waterloo. I am very passionate about software development and machine learning. My hobbies include working out, coding, cooking and video games."
+const more_desc = "I started coding when I was Grade 8, starting with Swift and Python but things really clicked when I first doved into Java and started developing Minecraft mods. I also previously ran a YouTube channel with 20k+ subscribers but it was put aside due to my other commitments."
 
 const About=()=>{
     return(
