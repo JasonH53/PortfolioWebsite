@@ -61,12 +61,13 @@
 
 @media only screen and (max-width : 550px) {
     .home_text-wrapper h1{
-        font-size: 3rem;
+        font-size: 4rem;
         line-height: 5rem;
     }
-    .home-text-wrapper h2{
-        font-size: 2rem;
-        line-height: 5rem;
+    .typed-text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: 0.5rem;
     }
 }
 
@@ -75,19 +76,21 @@
         font-size: 4rem;
         line-height: 7rem;
     }
-    .home-text-wrapper h2{
+    .typed-text{
         font-size: 2rem;
-        line-height: 5rem;
+        line-height: 3rem;
+        letter-spacing: 0.5rem;
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width : 990px) {
+@media only screen and (min-width: 769px) and (max-width : 968px) {
     .home_text-wrapper h1{
         font-size: 5rem;
         line-height: 9rem;
     }
-    .home-text-wrapper h2{
-        font-size: 4rem;
-        line-height: 8rem;
+    .typed-text{
+        font-size: 3rem;
+        line-height: 5rem;
+        letter-spacing: 0.5rem;
     }
 }

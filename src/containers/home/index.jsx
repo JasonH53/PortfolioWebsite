@@ -17,9 +17,9 @@ const Home=()=>{
             <div className="home_text-wrapper">
                 <h1 className="responsive-headline">Hi! I'm Jason.</h1>
                 <h2 className="responsive-headline">
-                        <ReactTyped
+                        <ReactTyped className="typed-text"
                             strings={[
-                                "I am a Computer Science Student",
+                                "I am a CS Student",
                                 "I am a Software Engineer",
                                 "I am a Content Creator",
                             ]}
