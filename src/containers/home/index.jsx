@@ -15,7 +15,7 @@ const Home=()=>{
     return(
         <section id="home" className="home">
             <div className="home_text-wrapper">
-                <h1 className="responsive-headline">Hi! I'm Jason</h1>
+                <h1 className="responsive-headline">Hi! I'm Jason.</h1>
                 <h2 className="responsive-headline">
                         <ReactTyped
                             strings={[

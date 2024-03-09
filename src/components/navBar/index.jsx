@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {FaBars} from 'react-icons/fa';
 import {HiCodeBracket} from 'react-icons/hi2'
 import {Link} from 'react-router-dom';
-import {HiCode, HiX} from 'react-icons/hi';
+import {HiX} from 'react-icons/hi';
 import {AiFillYoutube, AiOutlineGithub, AiOutlineLinkedin} from 'react-icons/ai'
 import './styles.scss';
 

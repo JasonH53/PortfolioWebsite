@@ -70,11 +70,11 @@
 
                 div {
                     position: absolute;
+                    width: 100%;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                     text-align: center;
-
 
                     button {
                         cursor: pointer;
@@ -95,18 +95,19 @@
 
 .title {
     color: var(--purple-theme-main-color);
+    width: 100%;
     margin: 0px;
     line-height: 4rem;
     font-size: 4rem;
     position: relative;
     overflow: hidden;
-
+    padding-bottom: 1rem;
 }
 
 .desc{
     color: var(--purple-theme-main-color);
     margin: 0px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     position: relative;
     overflow: hidden;
 

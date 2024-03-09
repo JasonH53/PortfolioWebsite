@@ -61,10 +61,10 @@ const portfolioData = [
     },
     {
         id: 3,
-        name: "Prev HR Manager @ Sunshine Action",
+        name: "Prev. HR Manager @ Sunshine Action",
         image: SunshinePhoto,
         link: "https://www.sunshine-action.org/",
-        desc: "Organized weekly meetings and consistently contributed ~3 hours weekly on preparation and distribution of care packages for individuals facing hardship"
+        desc: "Organized weekly meetings and volunteered 3 hours weekly to help the disadvantaged"
     }
 ]
 
