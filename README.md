@@ -1,8 +1,1 @@
-Personal Portfolio Website
-
-Libraries:
-    -React Router
-    -React Icons
-    -React Simple Animate
-    -React Typed
-    -Sass:
+https://jasonh53.github.io/PortfolioWebsite/)https://jasonh53.github.io/PortfolioWebsite/
