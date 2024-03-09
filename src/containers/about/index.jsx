@@ -4,7 +4,8 @@ import PageHeaderContent from '../../components/pageHeaderContent'
 import './styles.scss'
 import myPhoto from '../../resources/personal_photo.png'
 
-const selfDesc = "I'm a first-year Computer Science student at the University of Waterloo, diving headfirst into the world of software development and machine learning. My passion lies in crafting innovative solutions and exploring the potential of AI."
+const self_desc = "I'm a Computer Science student at the University of Waterloo. I am very passionate about software development and machine learning. My hobbies include exercising, coding, cooking and video games."
+const more_desc = "I started coding when I was Grade 8, starting with Swift and Python but things really clicked when I first dove into Java and developing Minecraft mods. I also previously ran a YouTube channel with 20k+ subscribers but it was put aside due to my other commitments"
 
 const About=()=>{
     return(
@@ -17,7 +18,9 @@ const About=()=>{
                     <div className="about_content_info">
                         <h3>Hi! I am Jason ...</h3>
                         <br/>
-                        <p>{selfDesc}</p>
+                        <p>{self_desc}</p>
+                        <br/>
+                        <p>{more_desc}</p>
                     </div>
                     <div className="about_content_photo">
                         <img src={myPhoto}/>

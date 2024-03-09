@@ -23,9 +23,14 @@
         }
     
         &_photo{
-            width: 50%;
-            display: inline;
-            position: relative;
+            display: flex;
+            height: 80%;
+            width: auto;
+            img{
+                max-width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
             padding: 10px 10px 10px 10px;
         }
     }
