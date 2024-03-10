@@ -5,6 +5,7 @@ import PersonalWebsite from '../../resources/PersonalWebsite.png'
 import YouTubeChan from '../../resources/YouTubeChannel.png'
 import SLMod from '../../resources/SLMod.png'
 import SunshinePhoto from '../../resources/sunshineAction.jpg'
+import ConversationBuddy from '../../resources/bonumcare.png'
 import './styles.scss'
 import { useState } from 'react';
 
@@ -65,6 +66,13 @@ const portfolioData = [
         image: SunshinePhoto,
         link: "https://www.sunshine-action.org/",
         desc: "Organized weekly meetings and volunteered 3 hours weekly to help the disadvantaged"
+    },
+    {
+        id: 2,
+        name: "Conversation Buddy @ Bonumcare",
+        image: ConversationBuddy,
+        link: "https://bonumcare.com/conversation-buddy",
+        desc: "Now inactive but previously developed an interactive chat bot to chat with lonely elderlies"
     }
 ]
 
