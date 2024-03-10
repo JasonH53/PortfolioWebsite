@@ -61,7 +61,7 @@ const portfolioData = [
     },
     {
         id: 3,
-        name: "Prev. HR Manager @ Sunshine Action",
+        name: "Prev. HR Manager @ Sunshine Action CDNIS",
         image: SunshinePhoto,
         link: "https://www.sunshine-action.org/",
         desc: "Organized weekly meetings and volunteered 3 hours weekly to help the disadvantaged"
