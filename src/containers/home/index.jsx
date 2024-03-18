@@ -19,7 +19,7 @@ const Home=()=>{
                 <h2 className="responsive-headline">
                         <ReactTyped className="typed-text"
                             strings={[
-                                "I am a CS Student",
+                                "I am a UWaterloo Student",
                                 "I am a Software Engineer",
                                 "I am a Content Creator",
                             ]}

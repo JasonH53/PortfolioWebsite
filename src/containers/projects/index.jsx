@@ -6,6 +6,8 @@ import YouTubeChan from '../../resources/YouTubeChannel.png'
 import SLMod from '../../resources/SLMod.png'
 import SunshinePhoto from '../../resources/sunshineAction.jpg'
 import ConversationBuddy from '../../resources/bonumcare.png'
+import PMHK from '../../resources/PMHK.png'
+import PPP from '../../resources/PPP.png'
 import './styles.scss'
 import { useState } from 'react';
 
@@ -65,7 +67,7 @@ const portfolioData = [
         name: "Prev. HR Manager @ Sunshine Action CDNIS",
         image: SunshinePhoto,
         link: "https://www.sunshine-action.org/",
-        desc: "Organized weekly meetings and volunteered 3 hours weekly to help the disadvantaged"
+        desc: "Organized weekly meetings and volunteered 3 hours weekly to help the disadvantaged, meeting Sustainable Development Goals #1, 2, 10, 17"
     },
     {
         id: 2,
@@ -73,6 +75,20 @@ const portfolioData = [
         image: ConversationBuddy,
         link: "https://bonumcare.com/conversation-buddy",
         desc: "Now inactive but previously developed an interactive chat bot to chat with lonely elderlies"
+    },
+    {
+        id: 3,
+        name: "Research on Air Pollution in Hong Kong",
+        image: PMHK,
+        link: "https://docs.google.com/document/d/1E4uAIjOeHOV3LNY5y7Xw_vQI0zFsir-kr-7wKMLjG_U/edit?usp=sharing",
+        desc: "Analyzing the relationship between Altitude and the concentration of PM2.5, PM10, and PM1.0 as altitude decreases in Hong Kong"
+    },
+    {
+        id: 3,
+        name: "Research on the Paycheck Protection Program in Houston",
+        image: PPP,
+        link: "https://docs.google.com/document/d/141zf7djZBWBaddjscn_EwI9g5a2ge7TOE3UwnGufamA/edit?usp=sharing",
+        desc: "Analyzing the effectiveness of the Paycheck Protection Program in lowering COVID related unemployment in Houston, TX"
     }
 ]
 
