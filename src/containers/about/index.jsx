@@ -11,9 +11,11 @@ const About=()=>{
     return(
         <div>
             <section id="about" className="about">
-                <PageHeaderContent
-                headerText = "About Me"
-                icon={<BsInfoCircleFill size = {40}/>}  />
+                <div className="header">
+                    <PageHeaderContent
+                    headerText = "About Me"
+                    icon={<BsInfoCircleFill size = {40}/>}  />
+                </div>
                 <div className="about_content">
                     <div className="about_content_info">
                         <h3>Hi! I am Jason ...</h3>

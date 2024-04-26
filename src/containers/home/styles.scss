@@ -7,11 +7,9 @@
     flex-direction: column;
 
     &_text-wrapper{
-        display: inline-block;
         vertical-align: middle;
         text-align: center;
         h1{
-            display: block;
             color: var(--purple-theme-main-color);
             margin: 0 auto 0 auto;
             font-weight: 500;
@@ -23,7 +21,6 @@
         }
         h2{
             margin-top: 2rem;
-            display: block;
             color: var(--purple-theme-main-color);
             margin: 0;
             font-weight: 500;
@@ -61,20 +58,25 @@
 
 @media only screen and (max-width : 550px) {
     .home_text-wrapper h1{
-        font-size: 4rem;
-        line-height: 5rem;
+        font-size: 3rem;
+        letter-spacing: 0;
+        line-height: 4rem;
+        padding-bottom: 0;
+        font-weight: 600;
     }
     .typed-text{
-        font-size: 1.5rem;
+        padding-top: 0;
+        font-weight: 600;
+        font-size: 2rem;
         line-height: 2rem;
-        letter-spacing: 0.5rem;
+        letter-spacing: 0.1rem;
     }
 }
 
 @media only screen and (min-width: 551px) and (max-width : 768px) {
     .home_text-wrapper h1{
         font-size: 4rem;
-        line-height: 7rem;
+        line-height: 5rem;
     }
     .typed-text{
         font-size: 2rem;

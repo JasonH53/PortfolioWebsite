@@ -5,8 +5,8 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    flex: 1;
     position: sticky;
+    z-index: 999;
 
     &_container{
         display: flex;
@@ -71,7 +71,7 @@
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        position: absolute;
+        position: fixed;
         top: 80px;
         right: -110%;
         opacity: 1;
@@ -81,7 +81,7 @@
             background: #181818;
             right: 0px;
             opacity: 1;
-            position: absolute;
+            position: fixed;
         }
 
         &_item{

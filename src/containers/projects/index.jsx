@@ -21,6 +21,10 @@ const filterData = [
         label: 'Development'
     },
     {
+        filterId: 4,
+        label: 'Research'
+    },
+    {
         filterId: 3,
         label: 'Others'
     }
@@ -77,14 +81,14 @@ const portfolioData = [
         desc: "Now inactive but previously developed an interactive chat bot to chat with lonely elderlies"
     },
     {
-        id: 3,
+        id: 4,
         name: "Research on Air Pollution in Hong Kong",
         image: PMHK,
         link: "https://docs.google.com/document/d/1E4uAIjOeHOV3LNY5y7Xw_vQI0zFsir-kr-7wKMLjG_U/edit?usp=sharing",
         desc: "Analyzing the relationship between Altitude and the concentration of PM2.5, PM10, and PM1.0 as altitude decreases in Hong Kong"
     },
     {
-        id: 3,
+        id: 4,
         name: "Research on the Paycheck Protection Program in Houston",
         image: PPP,
         link: "https://docs.google.com/document/d/141zf7djZBWBaddjscn_EwI9g5a2ge7TOE3UwnGufamA/edit?usp=sharing",

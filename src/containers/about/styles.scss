@@ -36,10 +36,11 @@
     }
 }
 
+
+
 @media only screen and (max-width: 1200px) {
     .about_content{
         flex-direction: column;
-
         &_info, &_photo {
             width: 100%;
         }
@@ -47,5 +48,9 @@
         &_photo{
             margin: 10px 0px;
         }
+    }
+    .header {
+        overflow: hidden;
+        white-space: nowrap;
     }
 }
