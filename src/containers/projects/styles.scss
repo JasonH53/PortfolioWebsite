@@ -18,7 +18,7 @@
                 padding: 10px 20px;
                 text-transform: uppercase;
                 transition: all 0.5 ease;
-                overflow: hidden;
+                overflow: scroll;
 
                 &.active {
                     background: var(--purple-theme-main-color);
@@ -123,7 +123,8 @@
     }
 
     .title{
-        font-size: 1.5rem;
+        font-size: 4rem;
+        font-weight: 500;
     }
     .desc{
         opacity: 0;
@@ -141,19 +142,10 @@
     }
 
     .title{
-        font-size: 2rem;
+        font-size: 4rem;
+        font-weight: 500;
     }
     .desc{
         opacity: 0;
-    }
-}
-
-@keyframes typingEffect{
-    from{
-        width: 0;
-    }
-
-    to {
-        width: 100%;
     }
 }
