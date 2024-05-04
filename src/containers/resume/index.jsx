@@ -84,20 +84,23 @@ const Resume=()=>{
     })
 
     return(
-        <section id="resume">
-            <div id="education">
-                <h1><span>Education</span></h1>
-                {education}
-            </div>
-            <div id="experience">
-                <h1><span>Experience</span></h1>
-                {experience}
-            </div>
-            {/* <div id="skills">
-                <h1><span>Skills</span></h1>
-                {skills}
-            </div> */}
-        </section>
+        // <section id="resume">
+        //     <div id="education">
+        //         <h1><span>Education</span></h1>
+        //         {education}
+        //     </div>
+        //     <div id="experience">
+        //         <h1><span>Experience</span></h1>
+        //         {experience}
+        //     </div>
+        //     {/* <div id="skills">
+        //         <h1><span>Skills</span></h1>
+        //         {skills}
+        //     </div> */}
+        // </section>
+        <div>
+            <embed src={resumePdf} className="resumePdf" type="application/pdf"/>
+        </div>
     )
 }
 
