@@ -18,7 +18,7 @@
                 padding: 10px 20px;
                 text-transform: uppercase;
                 transition: all 0.5 ease;
-                overflow: scroll;
+                overflow: hidden;
 
                 &.active {
                     background: var(--purple-theme-main-color);

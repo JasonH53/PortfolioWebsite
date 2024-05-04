@@ -15,7 +15,7 @@ function App() {
     <div className="App">
 
     {renderParticles && (
-        <ParticleBackground/>
+        <ParticleBackground className="bg"/>
     )}
 
     <Navbar/>
