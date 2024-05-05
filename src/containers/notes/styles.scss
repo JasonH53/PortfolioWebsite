@@ -1,0 +1,89 @@
+.notes {
+    &_content {
+        padding: 20px;
+        width: 100%;
+   
+        &_filter {
+            display: inline-block;
+            margin: 0 auto;
+            border-radius: 25px;
+            border: 1px solid var(--purple-theme-main-color);
+
+            li {
+                font-size: 16px;
+                display: inline-block;
+                cursor: pointer;
+                position: relative;
+                color: var(--purple-theme-main-color);
+                padding: 10px 20px;
+                text-transform: uppercase;
+                transition: all 0.5 ease;
+                overflow: hidden;
+
+                &.active {
+                    background: var(--purple-theme-main-color);
+                    color: white;
+                    font-weight: 600;
+                    border-radius: 25px;
+                }
+            }
+        }
+
+        &_cards {
+            &_item {
+                &:hover .overlay {
+                    opacity: 0.8;
+                }
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                height: 100%;
+                opacity: 0;
+                transition: 0.5s ease;
+                background-color: black;
+
+                div {
+                    position: absolute;
+                    width: 100%;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+
+                    button {
+                        cursor: pointer;
+                        margin-top: 16px;
+                        padding: 10px 70px;
+                        font-size: 2rem;
+                        background: transparent;
+                        color: goldenrod;
+                        border: 1.5px solid goldenrod;
+                        border-radius: 4px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.title {
+    color: var(--purple-theme-main-color);
+    width: 100%;
+    margin: auto;
+    line-height: 4rem;
+    font-size: 4rem;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-top: 15rem;
+    position: absolute;
+    
+}
+

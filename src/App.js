@@ -4,6 +4,7 @@ import Home from './containers/home'
 import About from './containers/about'
 import Resume from './containers/resume'
 import Projects from './containers/projects'
+import Notes from './containers/notes'
 import Navbar from './components/navBar';
 import ParticleBackground from './utils.js/background';
 
@@ -14,19 +15,16 @@ function App() {
   return (
     <div className="App">
 
-    {renderParticles && (
-        <ParticleBackground className="bg"/>
-    )}
-
-    <Navbar/>
-
-    <div className="App_main-page-content">
-      <Routes>
-        <Route index path='/' element={<Home/>}/>
-        <Route index path='/about' element={<About/>}/>
-        <Route index path='/projects' element={<Projects/>}/>
-        <Route index path='/resume' element={<Resume/>}/>
-      </Routes>
+      {renderParticles && (<ParticleBackground className="bg"/>)}
+      <Navbar/>
+      <div className="App_main-page-content">
+        <Routes>
+          <Route index path='/' element={<Home/>}/>
+          <Route index path='/about' element={<About/>}/>
+          <Route index path='/projects' element={<Projects/>}/>
+          <Route index path='/resume' element={<Resume/>}/>
+          <Route index path='/notes' element={<Notes/>}/>
+        </Routes>
     </div>
     </div>
   );

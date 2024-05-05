@@ -16,6 +16,10 @@ const data = [
         to: '/projects'
     },
     {
+        label: 'Notes',
+        to: '/notes'
+    },
+    {
         label: 'Resume',
         to: '/resume'
     },
