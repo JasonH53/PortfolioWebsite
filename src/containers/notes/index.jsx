@@ -137,6 +137,7 @@ const Notes =()=> {
 
     return (
         <section id="notes" className="notes">
+
             <div className="notes_content">
                 <ul className="notes_content_filter">
                     {
@@ -154,7 +155,7 @@ const Notes =()=> {
                             key={`cardItem${item.name.trim()}`}
                             onMouseEnter={() => handleHover(index)}
                             onMouseLeave={() => handleHover(null)}>
-                            <p className="title">{item.name}</p>
+                            <p className="notes_title">{item.name}</p>
                             <div className="overlay">
                                 {index === hoveredValue && (
                                     item.hasNotes ? 
