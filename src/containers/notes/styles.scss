@@ -29,21 +29,23 @@
         }
 
         &_cards {
-            gap: 1rem;
             margin-top: 10px;
 
             &_item {
-                border: 0.01rem solid var(--purple-theme-main-color);
+                border: 0.2rem solid var(--purple-theme-main-color);
                 height: 10rem;
-                border-radius: 7px;
+                border-radius: 200px;
                 cursor: pointer;
                 position: relative;
+                margin-bottom: 10px;
                 &:hover .overlay {
                     opacity: 0.8;
                 }
             }
 
             .overlay {
+                border-radius: 200px;
+                cursor: pointer;
                 position: absolute;
                 top: 0;
                 bottom: 0;
@@ -89,7 +91,8 @@
     overflow: hidden;
     padding-bottom: 1rem;
     text-align: center;
-    margin-top: 3.5rem;
+    margin-top: 3rem;
+    opacity: 100%;
     position: absolute;
     
 }
