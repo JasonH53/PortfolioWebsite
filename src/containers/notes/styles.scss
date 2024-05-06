@@ -29,8 +29,9 @@
         }
 
         &_cards {
+            width: 60%;
+            margin: auto;
             margin-top: 10px;
-
             &_item {
                 border: 0.2rem solid var(--purple-theme-main-color);
                 height: 10rem;

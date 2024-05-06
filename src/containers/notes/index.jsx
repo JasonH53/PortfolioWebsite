@@ -3,7 +3,6 @@ import { useState } from 'react'
 import math136 from '../../resources/MATH_136.pdf'
 import math138 from '../../resources/MATH_138.pdf'
 import cs136 from '../../resources/CS_136.pdf'
-import math_image1 from '../../resources/math_image1.jpg'
 
 const terms =[
     {
