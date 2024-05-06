@@ -3,6 +3,7 @@ import { useState } from 'react'
 import math136 from '../../resources/MATH_136.pdf'
 import math138 from '../../resources/MATH_138.pdf'
 import cs136 from '../../resources/CS_136.pdf'
+import math_image1 from '../../resources/math_image1.jpg'
 
 const terms =[
     {
@@ -151,11 +152,12 @@ const Notes =()=> {
                 </ul>
                 <div className="notes_content_cards">
                 {filteredItems.map((item, index) => (
-                        <div className="portfolio_content_cards_item"
+                        <div className="notes_content_cards_item"
                             key={`cardItem${item.name.trim()}`}
                             onMouseEnter={() => handleHover(index)}
                             onMouseLeave={() => handleHover(null)}>
                             <p className="notes_title">{item.name}</p>
+
                             <div className="overlay">
                                 {index === hoveredValue && (
                                     item.hasNotes ? 
