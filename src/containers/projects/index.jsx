@@ -6,6 +6,7 @@ import YouTubeChan from '../../resources/YouTubeChannel.png'
 import SLMod from '../../resources/SLMod.png'
 import SunshinePhoto from '../../resources/sunshineAction.jpg'
 import ConversationBuddy from '../../resources/bonumcare.png'
+import Finger from '../../resources/fingers.png'
 import PMHK from '../../resources/PMHK.png'
 import PPP from '../../resources/PPP.png'
 import './styles.scss'
@@ -49,7 +50,7 @@ const portfolioData = [
         id: 2,
         name: "Personal Website",
         image: PersonalWebsite,
-        link: "/",
+        link: "https://jasonh53.github.io/PortfolioWebsite/#/",
         desc: "The website you are visiting right now! It is built with React"
     },
     {
@@ -65,6 +66,13 @@ const portfolioData = [
         image: SLMod,
         link: "https://github.com/JasonH53/SLMod",
         desc: "QOL game modification for Minecraft, built with Java"
+    },
+    {
+        id: 2,
+        name: "Finger Counter",
+        image: Finger,
+        link: "https://github.com/JasonH53/Finger-Counter",
+        desc: "ML Finger Counter built with OpenCV, MediaPipe"
     },
     {
         id: 3,
