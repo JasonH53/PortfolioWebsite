@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioWebsite/static/css/main.4811d788.css",
-    "main.js": "/PortfolioWebsite/static/js/main.0b28e7dd.js",
+    "main.css": "/PortfolioWebsite/static/css/main.b045bb31.css",
+    "main.js": "/PortfolioWebsite/static/js/main.19d8be88.js",
     "static/js/1927.4375e0d0.chunk.js": "/PortfolioWebsite/static/js/1927.4375e0d0.chunk.js",
     "static/js/7590.ff1d913a.chunk.js": "/PortfolioWebsite/static/js/7590.ff1d913a.chunk.js",
     "static/js/6725.487233ef.chunk.js": "/PortfolioWebsite/static/js/6725.487233ef.chunk.js",
@@ -72,22 +72,25 @@
     "static/js/4290.c1604f3e.chunk.js": "/PortfolioWebsite/static/js/4290.c1604f3e.chunk.js",
     "static/media/SLMod.png": "/PortfolioWebsite/static/media/SLMod.fa1e6cea08a6ff548500.png",
     "static/media/personal_photo.png": "/PortfolioWebsite/static/media/personal_photo.af9f6c5f920c721d6f91.png",
+    "static/media/CS246.pdf": "/PortfolioWebsite/static/media/CS246.5451d8b6a76c6bc51aef.pdf",
     "static/media/PMHK.png": "/PortfolioWebsite/static/media/PMHK.87e4f42bf35554c49f30.png",
     "static/media/UWAssignmentPlanner.png": "/PortfolioWebsite/static/media/UWAssignmentPlanner.ced4f48ef61475004756.png",
     "static/media/YouTubeChannel.png": "/PortfolioWebsite/static/media/YouTubeChannel.8393af9e3321b0ba6d5c.png",
     "static/media/MATH_138.pdf": "/PortfolioWebsite/static/media/MATH_138.faee06cc63cdbbdf43ee.pdf",
     "static/media/fingers.png": "/PortfolioWebsite/static/media/fingers.15119ff0d53eb795cff0.png",
     "static/media/MATH_136.pdf": "/PortfolioWebsite/static/media/MATH_136.b5e5840af34d728d99d5.pdf",
+    "static/media/STAT230.pdf": "/PortfolioWebsite/static/media/STAT230.022132070906eb97bd0e.pdf",
+    "static/media/ENGL119.pdf": "/PortfolioWebsite/static/media/ENGL119.d9f0b9654a3692cb3ddf.pdf",
     "static/media/CS_136.pdf": "/PortfolioWebsite/static/media/CS_136.fe09f0fd6297c4e8c6f9.pdf",
     "static/media/PPP.png": "/PortfolioWebsite/static/media/PPP.f8fd7959243ab7d59162.png",
     "static/media/BoulderSolver.jpg": "/PortfolioWebsite/static/media/BoulderSolver.ad109a695ce63e235a5a.jpg",
+    "static/media/Resume.pdf": "/PortfolioWebsite/static/media/Resume.380733de0dc72e172291.pdf",
     "static/media/sunshineAction.jpg": "/PortfolioWebsite/static/media/sunshineAction.a240694cde2e07427c6f.jpg",
     "static/media/PersonalWebsite.png": "/PortfolioWebsite/static/media/PersonalWebsite.6d58693bd0b6d89b9408.png",
-    "static/media/Resume.pdf": "/PortfolioWebsite/static/media/Resume.6c28c3fd5280fa03c764.pdf",
     "static/media/bonumcare.png": "/PortfolioWebsite/static/media/bonumcare.5fc1da5ecb4305e5cbb9.png",
     "index.html": "/PortfolioWebsite/index.html",
-    "main.4811d788.css.map": "/PortfolioWebsite/static/css/main.4811d788.css.map",
-    "main.0b28e7dd.js.map": "/PortfolioWebsite/static/js/main.0b28e7dd.js.map",
+    "main.b045bb31.css.map": "/PortfolioWebsite/static/css/main.b045bb31.css.map",
+    "main.19d8be88.js.map": "/PortfolioWebsite/static/js/main.19d8be88.js.map",
     "1927.4375e0d0.chunk.js.map": "/PortfolioWebsite/static/js/1927.4375e0d0.chunk.js.map",
     "7590.ff1d913a.chunk.js.map": "/PortfolioWebsite/static/js/7590.ff1d913a.chunk.js.map",
     "6725.487233ef.chunk.js.map": "/PortfolioWebsite/static/js/6725.487233ef.chunk.js.map",
@@ -158,7 +161,7 @@
     "4290.c1604f3e.chunk.js.map": "/PortfolioWebsite/static/js/4290.c1604f3e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4811d788.css",
-    "static/js/main.0b28e7dd.js"
+    "static/css/main.b045bb31.css",
+    "static/js/main.19d8be88.js"
   ]
 }
