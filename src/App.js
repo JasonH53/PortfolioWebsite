@@ -1,31 +1,48 @@
 import './App.scss';
-import { Routes, Route, useLocation} from 'react-router-dom'
-import Home from './containers/home'
-import About from './containers/about'
-import Resume from './containers/resume'
-import Projects from './containers/projects'
-import Notes from './containers/notes'
+import { Routes, Route, useLocation } from 'react-router-dom';
+import Home from './containers/home';
+import About from './containers/about';
+import Resume from './containers/resume';
+import Projects from './containers/projects';
+import Notes from './containers/notes';
 import Navbar from './components/navBar';
 import ParticleBackground from './utils.js/background';
+import Loader from './components/Loader';
+import { useState, useEffect } from 'react';
 
 function App() {
   const location = useLocation();
   const renderParticles = location.pathname === "/";
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (renderParticles) {
+      setLoading(true);
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000);
+    } else {
+      setLoading(false);
+    }
+  }, [renderParticles]);
 
   return (
     <div className="App">
-
-      {renderParticles && (<ParticleBackground className="bg"/>)}
-      <Navbar/>
+      {loading && renderParticles ? (
+        <Loader />
+      ) : (
+        renderParticles && <ParticleBackground className="bg" />
+      )}
+      <Navbar />
       <div className="App_main-page-content">
         <Routes>
-          <Route index path='/' element={<Home/>}/>
-          <Route index path='/about' element={<About/>}/>
-          <Route index path='/projects' element={<Projects/>}/>
-          <Route index path='/resume' element={<Resume/>}/>
-          <Route index path='/notes' element={<Notes/>}/>
+          <Route index path='/' element={<Home />} />
+          <Route index path='/about' element={<About />} />
+          <Route index path='/projects' element={<Projects />} />
+          <Route index path='/resume' element={<Resume />} />
+          <Route index path='/notes' element={<Notes />} />
         </Routes>
-    </div>
+      </div>
     </div>
   );
 }
