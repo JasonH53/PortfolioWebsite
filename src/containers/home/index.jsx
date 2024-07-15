@@ -30,7 +30,7 @@ const Home=()=>{
                         />
                     </h2>
             </div>
-            <Animate play duration={1} delay={1}
+            <Animate play duration={1} delay={3}
             start={{
                 transform : 'translateY(550px)',
             }}
