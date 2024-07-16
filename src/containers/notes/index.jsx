@@ -4,7 +4,7 @@ import math136 from '../../resources/MATH_136.pdf'
 import math138 from '../../resources/MATH_138.pdf'
 import cs136 from '../../resources/CS_136.pdf'
 import cs246 from '../../resources/CS246.pdf'
-import cs245 from '../../resources/CS246.pdf'
+import cs245 from '../../resources/CS245.pdf'
 import stat230 from '../../resources/STAT230.pdf'
 import engl119 from '../../resources/ENGL119.pdf'
 

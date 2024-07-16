@@ -13,26 +13,10 @@ import { useState, useEffect } from 'react';
 function App() {
   const location = useLocation();
   const renderParticles = location.pathname === "/";
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    if (renderParticles) {
-      setLoading(true);
-      setTimeout(() => {
-        setLoading(false);
-      }, 1000);
-    } else {
-      setLoading(false);
-    }
-  }, [renderParticles]);
 
   return (
     <div className="App">
-      {loading && renderParticles ? (
-        <Loader />
-      ) : (
-        renderParticles && <ParticleBackground className="bg" />
-      )}
+      {renderParticles && (<ParticleBackground className="bg"/>)}
       <Navbar />
       <div className="App_main-page-content">
         <Routes>
