@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioWebsite/static/css/main.8818bb1b.css",
-    "main.js": "/PortfolioWebsite/static/js/main.fe5fecdc.js",
+    "main.css": "/PortfolioWebsite/static/css/main.6f4d0f40.css",
+    "main.js": "/PortfolioWebsite/static/js/main.8b935e90.js",
     "static/js/1927.4375e0d0.chunk.js": "/PortfolioWebsite/static/js/1927.4375e0d0.chunk.js",
     "static/js/7590.ff1d913a.chunk.js": "/PortfolioWebsite/static/js/7590.ff1d913a.chunk.js",
     "static/js/6725.487233ef.chunk.js": "/PortfolioWebsite/static/js/6725.487233ef.chunk.js",
@@ -90,8 +90,8 @@
     "static/media/Resume.pdf": "/PortfolioWebsite/static/media/Resume.8ef2c46845bf9f3db3cb.pdf",
     "static/media/bonumcare.png": "/PortfolioWebsite/static/media/bonumcare.5fc1da5ecb4305e5cbb9.png",
     "index.html": "/PortfolioWebsite/index.html",
-    "main.8818bb1b.css.map": "/PortfolioWebsite/static/css/main.8818bb1b.css.map",
-    "main.fe5fecdc.js.map": "/PortfolioWebsite/static/js/main.fe5fecdc.js.map",
+    "main.6f4d0f40.css.map": "/PortfolioWebsite/static/css/main.6f4d0f40.css.map",
+    "main.8b935e90.js.map": "/PortfolioWebsite/static/js/main.8b935e90.js.map",
     "1927.4375e0d0.chunk.js.map": "/PortfolioWebsite/static/js/1927.4375e0d0.chunk.js.map",
     "7590.ff1d913a.chunk.js.map": "/PortfolioWebsite/static/js/7590.ff1d913a.chunk.js.map",
     "6725.487233ef.chunk.js.map": "/PortfolioWebsite/static/js/6725.487233ef.chunk.js.map",
@@ -162,7 +162,7 @@
     "4290.c1604f3e.chunk.js.map": "/PortfolioWebsite/static/js/4290.c1604f3e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8818bb1b.css",
-    "static/js/main.fe5fecdc.js"
+    "static/css/main.6f4d0f40.css",
+    "static/js/main.8b935e90.js"
   ]
 }
