@@ -29,7 +29,7 @@
         }
 
         &_text{
-            color: var(--purple-theme-main-color);
+            color: grey;
             font-weight: 300;
             font-size: 15px;
             text-align: center;
@@ -43,6 +43,7 @@
             margin-top: 10px;
             &_item {
                 border: 0.2rem solid var(--purple-theme-main-color);
+                background-color: var(--purple-theme-background-color);
                 height: 10rem;
                 border-radius: 200px;
                 cursor: pointer;
