@@ -230,6 +230,7 @@ const Notes =()=> {
                         </div>
                     ))}
                 </div>
+                <p className="notes_content_text">These notes are provided for personal use only. All rights to the content belong to the instructor. Redistribution, reproduction, or commercial use of these notes in any form is strictly prohibited without the explicit permission of the instructor. The author of these notes does not guarantee the accuracy or completeness of the content and shall not be held liable for any errors or omissions. Use these notes at your own risk.</p>
             </div>
         </section>
     )
