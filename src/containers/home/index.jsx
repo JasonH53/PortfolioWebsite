@@ -1,5 +1,5 @@
 import React from 'react';
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import {Animate} from 'react-simple-animate'
 import './styles.scss'
 import { ReactTyped } from "react-typed";
@@ -7,12 +7,13 @@ import { ReactTyped } from "react-typed";
 const Home=()=>{
 
     const navigate = useNavigate();
-
+    
     const navigateToContact=()=>{
         navigate("/resume");
     }
 
     return(
+        
         <section id="home" className="home">
             <div className="home_text-wrapper">
                 <h1 className="responsive-headline">Hi! I'm Jason.</h1>
@@ -42,6 +43,7 @@ const Home=()=>{
                     <button onClick={navigateToContact}>Resume</button>
                 </div>
             </Animate>
+            
         </section>
     )
 }
