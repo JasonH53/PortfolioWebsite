@@ -64,7 +64,7 @@ const portfolioData = [
         id: 2,
         name: "SLMod",
         image: SLMod,
-        link: "https://github.com/JasonH53/SLMod",
+        link: "https://github.com/JasonH53/SLM",
         desc: "QOL game modification for Minecraft, built with Java"
     },
     {
