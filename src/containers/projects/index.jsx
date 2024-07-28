@@ -6,6 +6,7 @@ import YouTubeChan from '../../resources/YouTubeChannel.png'
 import SLMod from '../../resources/SLMod.png'
 import SunshinePhoto from '../../resources/sunshineAction.jpg'
 import ConversationBuddy from '../../resources/bonumcare.png'
+import chess from '../../resources/chess.png'
 import Finger from '../../resources/fingers.png'
 import PMHK from '../../resources/PMHK.png'
 import PPP from '../../resources/PPP.png'
@@ -54,11 +55,18 @@ const portfolioData = [
         desc: "The website you are visiting right now! It is built with React"
     },
     {
+        id: 2,
+        name: "Chesse Engine",
+        image: chess,
+        link: "https://github.com/pacman-ty/chess-engine",
+        desc: "Chess Engine with various levels of AI opponents developed using C++"
+    },
+    {
         id: 3,
         name: "YouTube Channel",
         image: YouTubeChan,
         link: "https://youtube.com/c/JasonStrafes",
-        desc: "YouTube channel with over 22,000 subscribers, documenting gameplay and history of games"
+        desc: "YouTube channel with over 20,000 subscribers, documenting gameplay and history of games"
     },
     {
         id: 2,
