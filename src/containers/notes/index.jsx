@@ -173,7 +173,7 @@ const courses = [
 ]
 
 const Notes =()=> {
-
+    
     const [term, setTerm] = useState(3);
     const [hoveredValue, setHoveredValue] = useState(null);
 
