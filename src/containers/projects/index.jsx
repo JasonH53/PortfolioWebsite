@@ -51,12 +51,12 @@ const portfolioData = [
         id: 2,
         name: "Personal Website",
         image: PersonalWebsite,
-        link: "https://jasonh53.github.io/PortfolioWebsite/#/",
+        link: "https://www.jasonhon.com/#/",
         desc: "The website you are visiting right now! It is built with React"
     },
     {
         id: 2,
-        name: "Chesse Engine",
+        name: "Chess Engine",
         image: chess,
         link: "https://github.com/pacman-ty/chess-engine",
         desc: "Chess Engine with various levels of AI opponents developed using C++"
@@ -74,13 +74,6 @@ const portfolioData = [
         image: SLMod,
         link: "https://github.com/JasonH53/SLM",
         desc: "QOL game modification for Minecraft, built with Java"
-    },
-    {
-        id: 2,
-        name: "Finger Counter",
-        image: Finger,
-        link: "https://github.com/JasonH53/Finger-Counter",
-        desc: "ML Finger Counter built with OpenCV, MediaPipe"
     },
     {
         id: 3,
