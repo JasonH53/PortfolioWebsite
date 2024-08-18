@@ -105,21 +105,21 @@ const courses = [
         name: 'CS 246',
         link: cs246,
         hasNotes: true,
-        WIP: true
+        WIP: false
     },
     {
         id: 3,
         name: 'CS 245',
         link: cs245,
         hasNotes: true,
-        WIP: true
+        WIP: false
     },
     {
         id: 3,
         name: 'STAT 230',
         link: stat230,
         hasNotes: true,
-        WIP: true
+        WIP: false
     },
     {
         id: 3,

@@ -7,11 +7,14 @@ import Projects from './containers/projects';
 import Notes from './containers/notes';
 import Navbar from './components/navBar';
 import ParticleBackground from './utils.js/background';
+import React, { Suspense } from 'react';
 
 function App() {
   return (
     <div className="App">
-      <ParticleBackground className="bg"/>
+      <Suspense fallback={<div>Loading...</div>}>
+        <ParticleBackground className="bg"/>
+      </Suspense>
       <Navbar />
       <div className="App_main-page-content">
         <Routes>

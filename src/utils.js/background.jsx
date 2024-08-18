@@ -9,7 +9,6 @@ const ParticleBackground = () => {
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
-    }).then(() => {
       setInit(true);
     });
   }, []);
