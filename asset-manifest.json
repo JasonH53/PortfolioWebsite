@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fdd659a9.css",
-    "main.js": "/static/js/main.9738db57.js",
+    "main.js": "/static/js/main.67cf6341.js",
     "static/js/1927.4375e0d0.chunk.js": "/static/js/1927.4375e0d0.chunk.js",
     "static/js/7590.ff1d913a.chunk.js": "/static/js/7590.ff1d913a.chunk.js",
     "static/js/6725.487233ef.chunk.js": "/static/js/6725.487233ef.chunk.js",
@@ -92,7 +92,7 @@
     "static/media/bonumcare.png": "/static/media/bonumcare.5fc1da5ecb4305e5cbb9.png",
     "index.html": "/index.html",
     "main.fdd659a9.css.map": "/static/css/main.fdd659a9.css.map",
-    "main.9738db57.js.map": "/static/js/main.9738db57.js.map",
+    "main.67cf6341.js.map": "/static/js/main.67cf6341.js.map",
     "1927.4375e0d0.chunk.js.map": "/static/js/1927.4375e0d0.chunk.js.map",
     "7590.ff1d913a.chunk.js.map": "/static/js/7590.ff1d913a.chunk.js.map",
     "6725.487233ef.chunk.js.map": "/static/js/6725.487233ef.chunk.js.map",
@@ -164,6 +164,6 @@
   },
   "entrypoints": [
     "static/css/main.fdd659a9.css",
-    "static/js/main.9738db57.js"
+    "static/js/main.67cf6341.js"
   ]
 }
