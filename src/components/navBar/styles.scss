@@ -1,12 +1,22 @@
-.navbar{
-    background: #181818;
+.navbar {
+    background: rgba(24, 24, 24, 0.95);
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 999;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    &.hidden {
+        transform: translateY(-100%);
+    }
 
     &_container{
         display: flex;
@@ -99,3 +109,12 @@
     }
 
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 80px; // Should match the height of your navbar
+}
+  

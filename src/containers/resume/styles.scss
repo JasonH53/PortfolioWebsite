@@ -1,13 +1,21 @@
-p {
-  color: white;
-}
+.resume {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  padding: 20px;
 
-a {
-  color: gold;
-}
+  h1, p {
+    color: white;
+    margin-bottom: 20px;
+  }
 
-.resumePdf {
-  overflow: hidden;
-  height: calc(100vh - 75px);
-  width: 100vw;
+  a {
+    color: gold;
+  }
+
+  .resumePdf {
+    width: 100%;
+    height: calc(100vh - 75px);
+    border: none;
+  }
 }

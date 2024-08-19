@@ -1,133 +1,164 @@
 .notes {
-    &_content {
-        padding: 20px;
-   
-        &_filter {
-            display: inline-block;
-            margin: 0 auto;
-            border-radius: 25px;
-            border: 1px solid var(--purple-theme-main-color);
-
-            li {
-                font-size: 16px;
-                display: inline-block;
-                cursor: pointer;
-                position: relative;
-                color: var(--purple-theme-main-color);
-                padding: 10px 20px;
-                text-transform: uppercase;
-                transition: all 0.5 ease;
-                overflow: hidden;
-
-                &.active {
-                    background: var(--purple-theme-main-color);
-                    color: white;
-                    font-weight: 600;
-                    border-radius: 25px;
-                }
-            }
-        }
-
-        &_text{
-            color: grey;
-            font-weight: 300;
-            font-size: 15px;
-            text-align: center;
-            display: block;
-            padding: 0 30px 0 30px;
-        }
-
-        &_cards {
-            width: 60%;
-            margin: auto;
-            margin-top: 10px;
-            &_item {
-                border: 0.2rem solid var(--purple-theme-main-color);
-                background-color: var(--purple-theme-background-color);
-                height: 10rem;
-                border-radius: 200px;
-                cursor: pointer;
-                position: relative;
-                margin-bottom: 10px;
-                &:hover .overlay {
-                    opacity: 0.8;
-                }
-            }
-
-            .overlay {
-                border-radius: 200px;
-                cursor: pointer;
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                right: 0;
-                left: 0;
-                height: 100%;
-                opacity: 0;
-                transition: 0.5s ease;
-                background-color: black;
-
-                div {
-                    position: absolute;
-                    width: 100%;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    text-align: center;
-
-                    button {
-                        cursor: pointer;
-                        padding: 10px 70px;
-                        font-size: 2rem;
-                        background: transparent;
-                        color: goldenrod;
-                        border: 1.5px solid goldenrod;
-                        border-radius: 4px;
-                        font-weight: 500;
-                    }
-
-                    p {
-                        font-size: 3rem;
-                        font-weight: 300;
-                    }
-                }
-            }
-        }
+    padding: 4rem 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+    &__content {
+      width: 90%;
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
     }
-}
-
-.notes_title {
-    color: var(--purple-theme-main-color);
-    width: 100%;
-    margin: auto;
-    line-height: 4rem;
-    font-size: 4rem;
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 1rem;
-    text-align: center;
-    margin-top: 3rem;
-    opacity: 100%;
-    position: absolute;
-    
-}
-
-.subject_background {
-    object-fit: contain;
-}
-
-@media only screen and (max-width: 1000px) {
-    .notes_content .overlay div button {
-        padding: 15px 35px;
+  
+    &__title {
+      font-size: 7rem;
+      color: var(--purple-theme-main-color);
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+  
+    &__term-selector {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 3rem;
+    }
+  
+    &__term-button {
+      background-color: transparent;
+      border: 2px solid var(--purple-theme-main-color);
+      color: var(--purple-theme-main-color);
+      padding: 0.8rem 1.5rem;
+      margin: 0 0.8rem;
+      font-size: 2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border-radius: 25px;
+  
+      &:hover, &.active {
+        background-color: var(--purple-theme-main-color);
+        color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    }
+  
+    &__courses-container {
+      flex-grow: 1;
+      overflow-y: auto;
+      margin-bottom: 3rem;
+      padding-top: 1rem; // Add padding to prevent cut-off on hover
+    }
+  
+    &__courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+  
+    &__course-card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 2rem;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+    }
+  
+    &__course-title {
+      color: var(--purple-theme-main-color);
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    &__course-link {
+      display: inline-block;
+      background-color: var(--purple-theme-main-color);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 25px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    }
+  
+    &__course-unavailable {
+      color: #bbb;
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+  
+    &__disclaimer {
+      font-size: 1.5rem;
+      color: #bbb;
+      text-align: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-bottom: 2rem;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .notes {
+      &__title {
+        font-size: 4rem;
+      }
+  
+      &__term-button {
+        font-size: 1.1rem;
+        padding: 0.7rem 1.3rem;
+      }
+  
+      &__courses {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      }
+  
+      &__course-title {
+        font-size: 1.8rem;
+      }
+  
+      &__course-link {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .notes {
+      &__title {
+        font-size: 3rem;
+      }
+  
+      &__term-button {
+        font-size: 1rem;
+        padding: 0.6rem 1.1rem;
+      }
+  
+      &__courses {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+  
+      &__course-title {
         font-size: 1.5rem;
+      }
+  
+      &__course-link {
+        font-size: 1rem;
+      }
+  
+      &__disclaimer {
+        font-size: 0.9rem;
+      }
     }
-
-    .notes_title {
-        font-size: 1.5rem;
-    }
-
-    .desc {
-        opacity: 100%;
-        font-size: 0.5rem;
-    }
-}
+  }
