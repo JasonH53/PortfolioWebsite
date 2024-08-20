@@ -10,6 +10,8 @@ import ConversationBuddy from '../../resources/bonumcare.png'
 import chess from '../../resources/chess.png'
 import PMHK from '../../resources/PMHK.png'
 import PPP from '../../resources/PPP.png'
+import notes from '../../resources/notes.png'
+import notesPdf from '../../resources/CS246.pdf'
 import './styles.scss'
 
 const filterData = [
@@ -90,6 +92,13 @@ const portfolioData = [
         image: PPP,
         link: "https://docs.google.com/document/d/141zf7djZBWBaddjscn_EwI9g5a2ge7TOE3UwnGufamA/edit?usp=sharing",
         desc: "Analyzing the effectiveness of the Paycheck Protection Program in lowering COVID related unemployment in Houston, TX"
+    },
+    {
+        id: 3,
+        name: "CS 246 - OOP Course Notes",
+        image: notes,
+        link: notesPdf,
+        desc: "LaTeX typed course notes for CS 246, Object Oriented Programming"
     }
 ]
 

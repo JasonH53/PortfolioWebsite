@@ -1,5 +1,5 @@
 import './App.scss';
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/navBar';
 import ParticleBackground from './utils.js/background';
@@ -9,9 +9,11 @@ import Resume from './containers/resume';
 import Projects from './containers/projects';
 import Notes from './containers/notes';
 import Section from './components/section';
+import particlesScreenshot from './resources/particles.webp';
 
 function App() {
   const [navbarHeight, setNavbarHeight] = useState(0);
+  const [isParticlesLoaded, setIsParticlesLoaded] = useState(false);
 
   useEffect(() => {
     const navbar = document.querySelector('.navbar');
@@ -31,9 +33,23 @@ function App() {
 
   return (
     <div className="App">
-      <Suspense fallback={<div>Loading...</div>}>
-        <ParticleBackground className="bg"/>
-      </Suspense>
+      <div className="bg-container" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }}>
+        <div 
+          className="bg-placeholder" 
+          style={{ 
+            width: '100%', 
+            height: '100%', 
+            backgroundImage: particlesScreenshot,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            opacity: isParticlesLoaded ? 0 : 1,
+            transition: 'opacity 0.5s ease-in-out'
+          }} 
+        />
+        <div style={{ opacity: isParticlesLoaded ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }}>
+          <ParticleBackground onInit={() => setIsParticlesLoaded(true)} />
+        </div>
+      </div>
       <Navbar />
       <div style={{ height: `${navbarHeight}px` }} />
       <Routes>

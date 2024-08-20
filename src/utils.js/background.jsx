@@ -1,27 +1,24 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from '@tsparticles/slim';
 import particleConfig from "./particles"; 
 
-const ParticleBackground = () => { 
+const ParticleBackground = ({ onInit, ...props }) => { 
   const [init, setInit] = useState(false);
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
       setInit(true);
+      if (onInit) onInit();
     });
-  }, []);
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
+  }, [onInit]);
 
   return (
     init && ( 
       <Particles
         id="tsparticles"
-        particlesLoaded={particlesLoaded}
+        
         options={particleConfig} 
       />
     )
