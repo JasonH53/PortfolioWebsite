@@ -34,22 +34,7 @@ function App() {
   return (
     <div className="App">
       <div className="bg-container" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }}>
-        <div 
-          className="bg-placeholder" 
-          style={{ 
-            width: '100%', 
-            height: '100%', 
-            zIndex: '0',
-            backgroundImage: particlesScreenshot,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            opacity: isParticlesLoaded ? 0 : 1,
-            transition: 'opacity 0.5s ease-in-out'
-          }} 
-        />
-        <div style={{ opacity: isParticlesLoaded ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }}>
-          <ParticleBackground onInit={() => setIsParticlesLoaded(true)} />
-        </div>
+        <ParticleBackground/>
       </div>
       <Navbar />
       <div style={{ height: `${navbarHeight}px` }} />
