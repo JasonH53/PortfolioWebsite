@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.25961608.css",
-    "main.js": "/static/js/main.944bc0bd.js",
+    "main.js": "/static/js/main.1a0f5c0d.js",
     "static/media/chess.png": "/static/media/chess.1f94961683a1292e3538.png",
     "static/media/CS246.pdf": "/static/media/CS246.8ce625d2817a669723a1.pdf",
     "static/media/personal_photo.png": "/static/media/personal_photo.af9f6c5f920c721d6f91.png",
     "static/media/PMHK.png": "/static/media/PMHK.87e4f42bf35554c49f30.png",
-    "static/media/UWAssignmentPlanner.png": "/static/media/UWAssignmentPlanner.ced4f48ef61475004756.png",
+    "static/media/UWScheduler.png": "/static/media/UWScheduler.ced4f48ef61475004756.png",
     "static/media/SLMod.png": "/static/media/SLMod.a9b6d46423a0231e7fd7.png",
     "static/media/YouTubeChannel.png": "/static/media/YouTubeChannel.ac0aac3ac8b65bea9a61.png",
     "static/media/STAT230.pdf": "/static/media/STAT230.9b121fcca95c8490221f.pdf",
@@ -14,21 +14,21 @@
     "static/media/MATH_136.pdf": "/static/media/MATH_136.b5e5840af34d728d99d5.pdf",
     "static/media/PPP.png": "/static/media/PPP.88aa62a3e3191e479c7a.png",
     "static/media/CS245.pdf": "/static/media/CS245.c3f7bfa4fbfbeed10706.pdf",
+    "static/media/UWCompass.png": "/static/media/UWCompass.ad9ff2114c426b60d455.png",
     "static/media/ENGL119.pdf": "/static/media/ENGL119.d9f0b9654a3692cb3ddf.pdf",
     "static/media/notes.png": "/static/media/notes.25cd8c5a8e05a4bba2a6.png",
     "static/media/CS_136.pdf": "/static/media/CS_136.fe09f0fd6297c4e8c6f9.pdf",
     "static/media/sunshineAction.jpg": "/static/media/sunshineAction.a240694cde2e07427c6f.jpg",
     "static/media/PersonalWebsite.png": "/static/media/PersonalWebsite.6d58693bd0b6d89b9408.png",
     "static/media/BoulderSolver.png": "/static/media/BoulderSolver.573891ff606c5ab5068b.png",
-    "static/media/Resume.pdf": "/static/media/Resume.a2d0d5c357b3e62f6490.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.72cd548afa90e9147c71.pdf",
     "static/media/bonumcare.png": "/static/media/bonumcare.73fd4623d80620a86c26.png",
-    "static/media/particles.webp": "/static/media/particles.3ee55fa37db9933ae180.webp",
     "index.html": "/index.html",
     "main.25961608.css.map": "/static/css/main.25961608.css.map",
-    "main.944bc0bd.js.map": "/static/js/main.944bc0bd.js.map"
+    "main.1a0f5c0d.js.map": "/static/js/main.1a0f5c0d.js.map"
   },
   "entrypoints": [
     "static/css/main.25961608.css",
-    "static/js/main.944bc0bd.js"
+    "static/js/main.1a0f5c0d.js"
   ]
 }
