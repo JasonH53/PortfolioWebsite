@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.25961608.css",
-    "main.js": "/static/js/main.1a0f5c0d.js",
+    "main.js": "/static/js/main.05aac720.js",
     "static/media/chess.png": "/static/media/chess.1f94961683a1292e3538.png",
     "static/media/CS246.pdf": "/static/media/CS246.8ce625d2817a669723a1.pdf",
     "static/media/personal_photo.png": "/static/media/personal_photo.af9f6c5f920c721d6f91.png",
+    "static/media/UWScheduler.png": "/static/media/UWScheduler.963abb4fa9c427385a33.png",
     "static/media/PMHK.png": "/static/media/PMHK.87e4f42bf35554c49f30.png",
-    "static/media/UWScheduler.png": "/static/media/UWScheduler.ced4f48ef61475004756.png",
     "static/media/SLMod.png": "/static/media/SLMod.a9b6d46423a0231e7fd7.png",
     "static/media/YouTubeChannel.png": "/static/media/YouTubeChannel.ac0aac3ac8b65bea9a61.png",
     "static/media/STAT230.pdf": "/static/media/STAT230.9b121fcca95c8490221f.pdf",
@@ -25,10 +25,10 @@
     "static/media/bonumcare.png": "/static/media/bonumcare.73fd4623d80620a86c26.png",
     "index.html": "/index.html",
     "main.25961608.css.map": "/static/css/main.25961608.css.map",
-    "main.1a0f5c0d.js.map": "/static/js/main.1a0f5c0d.js.map"
+    "main.05aac720.js.map": "/static/js/main.05aac720.js.map"
   },
   "entrypoints": [
     "static/css/main.25961608.css",
-    "static/js/main.1a0f5c0d.js"
+    "static/js/main.05aac720.js"
   ]
 }
