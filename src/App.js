@@ -9,11 +9,9 @@ import Resume from './containers/resume';
 import Projects from './containers/projects';
 import Notes from './containers/notes';
 import Section from './components/section';
-import particlesScreenshot from './resources/particles.webp';
 
 function App() {
   const [navbarHeight, setNavbarHeight] = useState(0);
-  const [isParticlesLoaded, setIsParticlesLoaded] = useState(false);
 
   useEffect(() => {
     const navbar = document.querySelector('.navbar');

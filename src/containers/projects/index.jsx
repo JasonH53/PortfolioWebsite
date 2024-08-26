@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import './styles.scss';
 import BoulderPhoto from '../../resources/BoulderSolver.png'
-import AssignPlanner from '../../resources/UWAssignmentPlanner.png'
+import AssignPlanner from '../../resources/UWScheduler.png'
+import UWCompass from '../../resources/UWCompass.png'
 import PersonalWebsite from '../../resources/PersonalWebsite.png'
 import YouTubeChan from '../../resources/YouTubeChannel.png'
 import SLMod from '../../resources/SLMod.png'
@@ -25,10 +26,17 @@ const filterData = [
 const portfolioData = [
     {
         id: 2,
-        name: "Waterloo Assignment Planner",
+        name: "UWScheduler",
         image: AssignPlanner,
         link: "https://github.com/JasonH53/UWAssignmentPlanner",
-        desc: "Assignment Planner designed for UWaterloo students, built with MEAN stack."
+        desc: "Assignment Planner and Scheduler designed for UWaterloo students, built with MEAN stack."
+    },
+    {
+      id: 2,
+      name: "UWCompass",
+      image: UWCompass,
+      link: "https://jasonh53.github.io/UWCompass/",
+      desc: "Course Planner and Gruadation Tracker, built with MERN stack"
     },
     {
         id: 2,
@@ -106,6 +114,8 @@ const Projects = () => {
   const [filteredValue, setFilteredValue] = useState(1);
   const [currentSlide, setCurrentSlide] = useState(0);
   const sliderRef = useRef(null);
+  const sectionRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
 
   const filteredItems = filteredValue === 1 ? portfolioData :
     portfolioData.filter(item => item.id === filteredValue);
@@ -127,14 +137,39 @@ const Projects = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (totalSlides > 1) {
-        nextSlide();
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      {
+        root: null,
+        threshold: 0.1
       }
-    }, 5000);
+    );
+  
+    const currentSection = sectionRef.current;
+  
+    if (currentSection) {
+      observer.observe(currentSection);
+    }
+  
+    return () => {
+      if (currentSection) {
+        observer.unobserve(currentSection);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    let interval;
+    if (isVisible && totalSlides > 1) {
+      interval = setInterval(() => {
+        nextSlide();
+      }, 5000);
+    }
 
     return () => clearInterval(interval);
-  }, [currentSlide, filteredItems, totalSlides, nextSlide]);
+  }, [isVisible, totalSlides, nextSlide]);
 
   useEffect(() => {
     if (sliderRef.current) {
@@ -143,7 +178,7 @@ const Projects = () => {
   }, [currentSlide]);
 
   return (
-    <section id="portfolio" className="projects">
+    <section id="portfolio" className="projects" ref={sectionRef}>
       <div className="portfolio-content">
         <div className="portfolio-filter">
           {filterData.map((item) => (
