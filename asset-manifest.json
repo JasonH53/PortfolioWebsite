@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.25961608.css",
-    "main.js": "/static/js/main.78600102.js",
+    "main.css": "/static/css/main.fe103701.css",
+    "main.js": "/static/js/main.5ddd6233.js",
     "static/media/chess.png": "/static/media/chess.1f94961683a1292e3538.png",
     "static/media/CS246.pdf": "/static/media/CS246.8ce625d2817a669723a1.pdf",
     "static/media/personal_photo.png": "/static/media/personal_photo.af9f6c5f920c721d6f91.png",
@@ -23,12 +23,13 @@
     "static/media/BoulderSolver.png": "/static/media/BoulderSolver.573891ff606c5ab5068b.png",
     "static/media/Resume.pdf": "/static/media/Resume.52526bcc2dc454d647d3.pdf",
     "static/media/bonumcare.png": "/static/media/bonumcare.73fd4623d80620a86c26.png",
+    "static/media/Transcript.pdf": "/static/media/Transcript.8423fe6df756c395e2b6.pdf",
     "index.html": "/index.html",
-    "main.25961608.css.map": "/static/css/main.25961608.css.map",
-    "main.78600102.js.map": "/static/js/main.78600102.js.map"
+    "main.fe103701.css.map": "/static/css/main.fe103701.css.map",
+    "main.5ddd6233.js.map": "/static/js/main.5ddd6233.js.map"
   },
   "entrypoints": [
-    "static/css/main.25961608.css",
-    "static/js/main.78600102.js"
+    "static/css/main.fe103701.css",
+    "static/js/main.5ddd6233.js"
   ]
 }
