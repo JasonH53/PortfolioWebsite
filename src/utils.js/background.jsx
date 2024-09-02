@@ -33,7 +33,7 @@ const ParticleBackground = () => {
           },
         },
         size: {
-          value: 5, // Increase size for zoomed-in effect
+          value: 5,
           random: true,
           anim: {
             enable: false,
@@ -47,7 +47,7 @@ const ParticleBackground = () => {
           distance: 150,
           color: '#B65FCF',
           opacity: 0.4,
-          width: 2, // Increase line thickness
+          width: 2,
         },
         move: {
           enable: true,
