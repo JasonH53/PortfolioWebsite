@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5af201f6.css",
-    "main.js": "/static/js/main.eecdc40f.js",
+    "main.js": "/static/js/main.47a1c0f4.js",
     "static/media/chess.png": "/static/media/chess.1f94961683a1292e3538.png",
     "static/media/CS246.pdf": "/static/media/CS246.6aebd11addbcdbfe6397.pdf",
     "static/media/personal_photo.png": "/static/media/personal_photo.cd421928af3168243113.png",
@@ -12,6 +12,7 @@
     "static/media/STAT230.pdf": "/static/media/STAT230.9b121fcca95c8490221f.pdf",
     "static/media/MATH_138.pdf": "/static/media/MATH_138.faee06cc63cdbbdf43ee.pdf",
     "static/media/MATH_136.pdf": "/static/media/MATH_136.b5e5840af34d728d99d5.pdf",
+    "static/media/VoiceLens.png": "/static/media/VoiceLens.3b7201fd3c916f3412dc.png",
     "static/media/PPP.png": "/static/media/PPP.88aa62a3e3191e479c7a.png",
     "static/media/CS245.pdf": "/static/media/CS245.c3f7bfa4fbfbeed10706.pdf",
     "static/media/UWCompass.png": "/static/media/UWCompass.ad9ff2114c426b60d455.png",
@@ -26,10 +27,10 @@
     "static/media/Transcript.pdf": "/static/media/Transcript.8423fe6df756c395e2b6.pdf",
     "index.html": "/index.html",
     "main.5af201f6.css.map": "/static/css/main.5af201f6.css.map",
-    "main.eecdc40f.js.map": "/static/js/main.eecdc40f.js.map"
+    "main.47a1c0f4.js.map": "/static/js/main.47a1c0f4.js.map"
   },
   "entrypoints": [
     "static/css/main.5af201f6.css",
-    "static/js/main.eecdc40f.js"
+    "static/js/main.47a1c0f4.js"
   ]
 }
