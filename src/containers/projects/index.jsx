@@ -13,6 +13,7 @@ import PMHK from '../../resources/PMHK.png'
 import PPP from '../../resources/PPP.png'
 import notes from '../../resources/notes.png'
 import notesPdf from '../../resources/CS246.pdf'
+import voiceLens from '../../resources/VoiceLens.png'
 import './styles.scss'
 
 const filterData = [
@@ -25,11 +26,18 @@ const filterData = [
 
 const portfolioData = [
     {
+      id: 2,
+      name: "Chess Engine",
+      image: chess,
+      link: "https://github.com/pacman-ty/chess-engine",
+      desc: "Chess Engine with various levels of AI opponents developed using C++"
+    },
+    {
         id: 2,
-        name: "UWScheduler",
-        image: AssignPlanner,
-        link: "https://github.com/JasonH53/UWAssignmentPlanner",
-        desc: "Assignment Planner and Scheduler designed for UWaterloo students, built with MEAN stack."
+        name: "VoiceLens",
+        image: voiceLens,
+        link: "https://devpost.com/software/voicelens?ref_content=user-portfolio&ref_feature=in_progress",
+        desc: "Built for Hack The North 2024. Empowering silent voices with real-time lip reading and translation, bridging the communication gap."
     },
     {
       id: 2,
@@ -46,11 +54,11 @@ const portfolioData = [
         desc: "The website you are visiting right now! It is built with React"
     },
     {
-        id: 2,
-        name: "Chess Engine",
-        image: chess,
-        link: "https://github.com/pacman-ty/chess-engine",
-        desc: "Chess Engine with various levels of AI opponents developed using C++"
+      id: 2,
+      name: "UWScheduler",
+      image: AssignPlanner,
+      link: "https://github.com/JasonH53/UWAssignmentPlanner",
+      desc: "Assignment Planner and Scheduler designed for UWaterloo students, built with MEAN stack."
     },
     {
       id: 2,
